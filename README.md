@@ -20,12 +20,9 @@ The goal is to help businesses identify high-risk customers and improve customer
 The dataset includes customer information such as:
 
 - Gender  
-- Senior Citizen  
-- Partner & Dependents  
 - Tenure  
 - Internet Service  
 - Contract Type  
-- Payment Method  
 - Monthly Charges  
 - Total Charges  
 - Churn (Target Variable)
@@ -55,7 +52,6 @@ The dataset includes customer information such as:
 - Converted data types
 - Handled inconsistent values
 - Encoded categorical variables
-- Removed unnecessary columns
 
 ---
 
@@ -77,8 +73,8 @@ Performed visual analysis to understand:
 ---
 
 ### 3️⃣ Feature Engineering
-- Label Encoding / One-Hot Encoding
-- Feature Scaling (if applied)
+- Label Encoding
+- Feature Scaling
 - Train-Test Split
 
 ---
@@ -89,7 +85,9 @@ Implemented the following models:
 
 - Logistic Regression  
 - Decision Tree Classifier  
-- Random Forest Classifier  
+- Random Forest Classifier
+- SVM
+- KNN  
 
 ---
 
@@ -106,7 +104,31 @@ Evaluation Metrics Used:
 ### 🏆 Best Performing Model
 Random Forest performed better compared to other models.
 
-(You can update with your exact accuracy values)
+### 🔮 Future Improvements
 
-Example:
+- Hyperparameter tuning (GridSearchCV)
 
+- Handle class imbalance
+
+- ROC-AUC curve analysis
+
+- Feature importance visualization
+
+- Model deployment using Streamlit
+
+### 🧠 Key Learnings
+
+- End-to-end Machine Learning pipeline
+
+- Importance of data preprocessing
+
+- Model comparison techniques
+
+- Business interpretation of ML results
+
+- Practical implementation of classification algorithms
+
+### 👨‍💻 Author
+
+**Rohit Gharal**
+Aspiring Data Scientist | Machine Learning Enthusiast
