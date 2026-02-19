@@ -104,7 +104,7 @@ Evaluation Metrics Used:
 ### 🏆 Best Performing Model
 Random Forest performed better compared to other models.
 
-### 🔮 Future Improvements
+### 🔮 Improvements
 
 - Hyperparameter tuning (GridSearchCV)
 
